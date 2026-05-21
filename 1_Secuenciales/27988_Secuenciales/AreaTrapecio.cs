@@ -22,7 +22,12 @@ namespace _27988_Secuenciales
             //Entrada datos
             //Pedir al usuario con mensaje
             Console.WriteLine("Ingrese Base Mayor Trapecio");
+            //Guardar el valor que ingresa el usuario
+            //1ra Forma guardar
+            bmayor=int.Parse(Console.ReadLine()); //int.parse
             Console.WriteLine("Ingrese Base Menor Trapecio");
+            //2da Forma guardar
+            bmenor=Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Ingrese Altura Trapecio");
 
         }
