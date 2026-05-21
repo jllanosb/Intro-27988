@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _27988_Secuenciales
 {
-    internal class Program
+    internal class AreaTrapecio
     {
         static void Main(string[] args)
         {
