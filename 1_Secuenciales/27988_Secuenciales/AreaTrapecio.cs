@@ -30,14 +30,28 @@ namespace _27988_Secuenciales
             bmenor=Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Ingrese Altura Trapecio");
             //3ra Forma Forma Tryparse
-            if (int.TryParse(Console.ReadLine(), out bmenor)){
+            if (int.TryParse(Console.ReadLine(), out altura)){
                   //Guardar el numero
-                  bmenor=int.Parse(Console.ReadLine());
+                  altura=int.Parse(Console.ReadLine());
              }
              else {
                    Console.WriteLine("El Valor ingresado no es un numero");
              }
              
+            //Proceso
+            area = (bmayor + bmenor) * altura / 2;
+
+            //Salida datos
+            Console.WriteLine($"El Area del Trapecio es: {area} m2");
+
+
+
+
+
+
+
+
+
 
         }
     }
