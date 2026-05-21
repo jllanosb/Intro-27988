@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _27988_Secuenciales
+namespace Ejercicios
 {
     internal class AreaTrapecio
     {
