@@ -10,6 +10,8 @@ namespace _27988_Secuenciales
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(DateTime.Now); // Fecha y Hora
+            Console.WriteLine("Llanos Bardales, Jaime");
         }
     }
 }
