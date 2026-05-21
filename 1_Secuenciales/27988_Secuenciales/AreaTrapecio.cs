@@ -44,15 +44,7 @@ namespace _27988_Secuenciales
             //Salida datos
             Console.WriteLine($"El Area del Trapecio es: {area} m2");
 
-
-
-
-
-
-
-
-
-
+            Console.ReadKey();
         }
     }
 }
