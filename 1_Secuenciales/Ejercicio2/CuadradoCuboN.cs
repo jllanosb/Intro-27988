@@ -10,6 +10,9 @@ namespace Ejercicio2
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(DateTime.Now); // Fecha y Hora
+            Console.WriteLine("Llanos Bardales, Jaime");
+            Console.WriteLine("E1. Numero al Cuadrado y Cubo"); 
             int n, cuadrado, cubo;
             Console.WriteLine("Ingrese un numero");
             n=int.Parse(Console.ReadLine());
