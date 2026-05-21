@@ -12,6 +12,19 @@ namespace _27988_Secuenciales
         {
             Console.WriteLine(DateTime.Now); // Fecha y Hora
             Console.WriteLine("Llanos Bardales, Jaime");
+            Console.WriteLine("E1. Area Trapecio");
+            
+            //Declarar variables
+            //Tipo dato nombre variable ;
+            int bmayor, bmenor, altura;
+            double area;
+
+            //Entrada datos
+            //Pedir al usuario con mensaje
+            Console.WriteLine("Ingrese Base Mayor Trapecio");
+            Console.WriteLine("Ingrese Base Menor Trapecio");
+            Console.WriteLine("Ingrese Altura Trapecio");
+
         }
     }
 }
