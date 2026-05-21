@@ -31,8 +31,8 @@ namespace _27988_Secuenciales
             Console.WriteLine("Ingrese Altura Trapecio");
             //3ra Forma Forma Tryparse
             if (int.TryParse(Console.ReadLine(), out altura)){
-                  //Guardar el numero
-                  altura=int.Parse(Console.ReadLine());
+                Console.WriteLine("Si es un numero se guardo");
+                //Guardar el numero
              }
              else {
                    Console.WriteLine("El Valor ingresado no es un numero");
