@@ -29,6 +29,15 @@ namespace _27988_Secuenciales
             //2da Forma guardar
             bmenor=Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Ingrese Altura Trapecio");
+            //3ra Forma Forma Tryparse
+            if (int.TryParse(Console.ReadLine(), out bmenor)){
+                  //Guardar el numero
+                  bmenor=int.Parse(Console.ReadLine());
+             }
+             else {
+                   Console.WriteLine("El Valor ingresado no es un numero");
+             }
+             
 
         }
     }
